@@ -1,0 +1,11 @@
+vpc-name = "terraformvpc"
+vpc-cidr = "10.0.0.0/16"
+subnets-cidr      = ["10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24" , "10.0.4.0/24" , "10.0.5.0/24"]
+instance-type     = "t2.medium"
+ami               = "ami-09040d770ffe2224f"
+availability-zone = ["us-east-2a", "us-east-2b", "us-east-2c"]
+instance-name     = "public_instance"
+# private-instance     = "private_instance"
+RT-Cidr = ["0.0.0.0/0", "0.0.0.0/0"]
+# private-subnet-cidr = ["10.0.6.0/28", "10.0.7.0/28", "10.0.8.0/28" , "10.0.9.0/28" , "10.0.10.0/28"]
+key-name = "us-east-2"
